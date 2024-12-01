@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 1</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Dados pessoais</legend>
+        <p>
+            <label>Nome: <input type="text" name="nome" /></label>
+        </p>
+        <p>
+            <label>Idade: <input type="text" name="idade" /></label>
+        </p>
+    </fieldset>
+    
+    <fieldset>
+        <legend>Dados profissionais</legend>
+        <p>
+            <label>Escolaridade:
+                <select name="escolaridade">
+                    <option>Ensino Médio</option>
+                    <option>Nível Técnico</option>
+                    <option>Nível Superior</option>
+                </select>
+            </label>
+        </p>
+        <p>Área de atuação:</p>
+        <label><input type="radio" name="cargo" value="1" checked> Gerência</label>
+        <label><input type="radio" name="cargo" value="2"> Financeiro</label>
+        <label><input type="radio" name="cargo" value="3"> Recepção</label>
+    </fieldset>
+</body>
+</html>
